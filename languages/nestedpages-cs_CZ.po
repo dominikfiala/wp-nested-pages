@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: Nested Pages\n"
+"Project-Id-Version: NestedPages\n"
 "Language: cs\n"
 
 #: app/Activation/Dependencies.php:124 app/Views/listing.php:40
@@ -468,51 +468,9 @@ msgstr "Pořadí"
 msgid "Sync Menu"
 msgstr "Sync Menu"
 
-#: app/Views/partials/bulk-edit.php:10
-msgid "Bulk Edit"
-msgstr "Hromadné úpravy"
-
-#: app/Views/partials/bulk-edit.php:13
-msgid "There are links selected. Bulk edit will not apply to links."
-msgstr "Existují odkazy zaregistrování. Hromadná úprava se nebude vztahovat na odkazy."
-
-#: app/Views/partials/bulk-edit.php:25 app/Views/partials/bulk-edit.php:46
-#: app/Views/partials/bulk-edit.php:60 app/Views/partials/bulk-edit.php:74
-#: app/Views/partials/bulk-edit.php:84 app/Views/partials/bulk-edit.php:94
-msgid "No Change"
-msgstr "beze změn"
-
-#: app/Views/partials/bulk-edit.php:72
-msgid "Comments"
-msgstr "Komentáře"
-
-#: app/Views/partials/bulk-edit.php:75
-msgid "Allow"
-msgstr "Povolit"
-
-#: app/Views/partials/bulk-edit.php:76
-msgid "Do not allow"
-msgstr "Nepovolit"
-
-#: app/Views/partials/bulk-edit.php:82
-msgid "Display in Nested View"
-msgstr "Zobrazení v Stromová struktura"
-
-#: app/Views/partials/bulk-edit.php:85 app/Views/partials/bulk-edit.php:95
-msgid "Hide"
-msgstr "Skrýt"
-
-#: app/Views/partials/bulk-edit.php:86 app/Views/partials/bulk-edit.php:96
-msgid "Show"
-msgstr "Zobrazit"
-
 #: app/Views/partials/list-header.php:13
 msgid "Move to Trash"
 msgstr "Přesunout do koše"
-
-#: app/Views/partials/list-header.php:15 app/Views/partials/row.php:60
-msgid "Edit"
-msgstr "Upravit"
 
 #: app/Views/partials/list-header.php:19
 msgid "Nested Items Selected"
@@ -529,6 +487,10 @@ msgstr "příspěvky Page"
 #: app/Views/partials/row.php:56
 msgid "currently editing"
 msgstr "V současné době editace"
+
+#: app/Views/partials/list-header.php:15 app/Views/partials/row.php:60
+msgid "Edit"
+msgstr "Upravit"
 
 #: app/Views/partials/tool-list.php:6
 msgid "All"
@@ -755,4 +717,42 @@ msgstr "Obecné"
 #: app/Views/settings/settings.php:10
 msgid "Post Types"
 msgstr "Druhy příspěvků"
+
+#: app/Views/partials/bulk-edit.php:10
+msgid "Bulk Edit"
+msgstr "Hromadné úpravy"
+
+#: app/Views/partials/bulk-edit.php:13
+msgid "There are links selected. Bulk edit will not apply to links."
+msgstr "Existují odkazy zaregistrování. Hromadná úprava se nebude vztahovat na odkazy."
+
+#: app/Views/partials/bulk-edit.php:25 app/Views/partials/bulk-edit.php:46
+#: app/Views/partials/bulk-edit.php:60 app/Views/partials/bulk-edit.php:74
+#: app/Views/partials/bulk-edit.php:84 app/Views/partials/bulk-edit.php:94
+msgid "No Change"
+msgstr "beze změn"
+
+#: app/Views/partials/bulk-edit.php:72
+msgid "Comments"
+msgstr "Komentáře"
+
+#: app/Views/partials/bulk-edit.php:75
+msgid "Allow"
+msgstr "Povolit"
+
+#: app/Views/partials/bulk-edit.php:76
+msgid "Do not allow"
+msgstr "Nepovolit"
+
+#: app/Views/partials/bulk-edit.php:82
+msgid "Display in Nested View"
+msgstr "Zobrazení v Stromová struktura"
+
+#: app/Views/partials/bulk-edit.php:85 app/Views/partials/bulk-edit.php:95
+msgid "Hide"
+msgstr "Skrýt"
+
+#: app/Views/partials/bulk-edit.php:86 app/Views/partials/bulk-edit.php:96
+msgid "Show"
+msgstr "Zobrazit"
 
